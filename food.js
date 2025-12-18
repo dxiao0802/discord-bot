@@ -49,7 +49,7 @@ if (interaction.commandName === 'kick') {
         const randomMember = targets.random();
 
         await randomMember.kick('命運的安排');
-        await interaction.reply(`🥾 再見了！**${randomMember.user.tag}** 被隨機踢出了伺服器！`);
+        await interaction.reply(`再見掰掰**${randomMember.user.tag}** 被機車阿狗踢出了伺服器！`);
 
     } catch (err) {
         console.error(err);
@@ -57,6 +57,8 @@ if (interaction.commandName === 'kick') {
     }
     return;
 }
+
+// /ban
 
 const randomMumber = members.random();
 try{
